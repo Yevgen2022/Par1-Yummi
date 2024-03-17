@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue; */
+}
+*{
+    box-sizing: border-box;
+}
+main{
+    margin: 0;
+    padding: 0;
+    /* width: 1920px; */
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+}
+@font-face{
+    font-family: Monserat-Med;
+    src: url("../fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
+@font-face{
+    font-family: Monserat-ExtraB;
+    src: url("../fonts/Montserrat/static/Montserrat-ExtraBold.ttf");
+}
+@font-face{
+    font-family: Monserat-Bold;
+    src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf");
+}
+@font-face{
+    font-family: Monserat-Semi-Bold;
+    src: url("../fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+
+
+
+/* Встановлюємо властивості Header_section */
+.header_section{
+    width: 1170px;
+    height: 79px;
+    margin: 30px 375px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+}
+
+.header_section .img_for_header img{
+    width: 79px;
+    height: 79px;
+}
+
+.header_section .text_in_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 30px;
+    
+    width: 403px;
+    /* width: auto; */
+    /* height: 21px; */
+    /* margin-right: 0; */
+    box-sizing: border-box;
+    
+}
+
+.header_section .text_in_header p:nth-child(1){ 
+    margin: 0 50px 0 0  ;
+}
+.header_section .text_in_header p:nth-child(2){ 
+    margin: 0  ;
+}
+
+.header_section .text_in_header p{
+    font-family: Monserat-Med;
+    color:#774E2E;
+
+}
+
+/* Кінець властивостям Header_section */
+
+
+
+
+/*Властивості верхньої частини*/
+.top_section{
+    width: 1170px;
+    height: 775px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    box-sizing:border-box;
+}
+.top_section .velcome_yummy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    /* border: 1px solid blue; */
+    width: 575px;
+    height: 474px;
+    box-sizing: border-box;
+    margin-top: 161px;
+}
+
+.top_section .velcome_yummy h1{
+    color: #F37F34;
+    font-family:  Monserat-ExtraB;
+    font-size: 110px;
+    margin: 0;
+}
+.top_section .velcome_yummy h1 strong{
+    color: #774E2E;
+}
+
+.top_section .velcome_yummy p{
+    font-family: Monserat-Med;
+    color:#774E2E;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    margin: 40px 0 50px 0;
+}
+
+.top_section .velcome_yummy div{
+    background-color: #774E2E;
+    width: 343px;
+    height: 69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  
+}
+.top_section .velcome_yummy div p{
+    font-family:  Monserat-Med;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 21px 0 21px 0;
+    width: auto;
+    margin: 0;
+}
+
+.top_section .img_for_topSection{
+    width: 575px;
+    height: 596px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+}
+/*Кінець властивостям верхньої частини*/
+
+
+/*Початок властивостей середньої частини*/
+.midle_section{
+    width: 1920px;
+    height: 911px;
+    background-color: #FFF9EA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.midle_section h2{
+    font-family: Monserat-Bold;
+    font-size: 72px;
+    color: #F37F34;
+    line-height: 110%;
+    letter-spacing: 1px;
+    margin: 150px auto 70px auto ;
+    width: 1151px;
+    height: 79px;text-align: center;
+    
+}
+.midle_section h2 strong{
+    color: #774E2E;
+}
+.midle_section .box_with_sweet{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    box-sizing: border-box;
+   
+}
+.midle_section .box_with_sweet .foto_and_adv {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 370px;
+    height: 462px;
+    box-sizing: border-box;
+    }
+    .midle_section .box_with_sweet .foto_and_adv img{
+        width: 370px;
+        height: 248px;
+    }
+    .midle_section .box_with_sweet .foto_and_adv h4{
+        font-family: Monserat-Semi-Bold;
+        color: #673B19;
+        font-size: 24px;
+    }
+    .midle_section .box_with_sweet .foto_and_adv p{
+        font-family: Monserat-Med;
+        color: #774E2E;
+        font-size: 16px;
+        text-align: center;
+    }
+    .midle_section .box_with_sweet div:nth-child(2){
+        margin: 0 30px 0 30px;
+    }
+/*Кінець властивостям середньої частини*/
+
+
+
+/*Початок властивостей нижньої частини*/
+.bottom_section{
+    width: 1170px;
+    height: 722px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto 150px auto;
+    box-sizing: border-box;
+}
+.bottom_section .foto_yummi img{
+    width: 575px;
+    height: 722px;
+    /* border: 1px solid blue; */
+}
+
+.bottom_section .advice_yummi h2{
+    font-family: Monserat-Bold;
+    font-size: 72px;
+    color: #F37F34;
+    line-height: 110%;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    
+}
+.bottom_section .advice_yummi h2 strong{
+    color: #774E2E;
+}
+
+.bottom_section .advice_yummi p{
+font-family: Monserat-Med;
+color: #774E2E;
+font-size: 16px;
+text-align: left;
+line-height: 150%;
+letter-spacing: 1px;
+margin: 0;
+}
+
+.bottom_section .advice_yummi h4{
+font-family: Monserat-Semi-Bold;
+color: #673B19;
+font-size: 24px;
+margin: 60px auto 20px 0;
+}
+
+.bottom_section .advice_yummi ul{
+font-family: Monserat-Med;
+color: #774E2E;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 1px;
+padding-left: 20px;
+
+width: 172px;
+height: 168px;
+}
+/*Кінець властивостей нижньої частини*/
+
+/* Встановлюємо властивості для footer */
+footer{
+    background-color: #774E2E;
+    /* width: 1920px; */
+    width: auto;
+    height: 179px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-family: Monserat-Med;
+    font-size: 36px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin-left: 188px;
+}
+/* Кінець властивостей для footer */
